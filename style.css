@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    background-color: violet;
+    height: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+h3{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: underline;
+}
+
+#content{
+    float: right;
+    list-style: none;
+    padding: 15px;
+}
+
+li{
+    float: left;
+    padding-left: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: tomato;
+}
+
+a:active{
+    color: black;
+}
